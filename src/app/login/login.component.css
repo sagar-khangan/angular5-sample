@@ -1,0 +1,80 @@
+.container-fluid {
+    margin-top: -5%;
+    background: linear-gradient(to top right, #66D5FF, #052466);
+}
+
+.main-wrapper {
+    width: 360px;
+    background-color: white;
+    background: transparent;
+    margin: 10% auto;
+    height: 50vh;
+}
+
+.amaze-text-wrapper {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.amaze-text-wrapper p {
+    font-size: 20px;
+}
+
+.login-wrapper {
+    padding: 20px;
+    top: 0;
+    background-color: antiquewhite;
+}
+
+.form-wrapper {
+    padding: 5px;
+}
+
+.form-control {
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    box-shadow: none;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+    width: 80%;
+    color: white;
+}
+
+.caremore-logo {
+    position: relative;
+    text-align: center;
+    background-image: url("/assets/images/caremoreLogo.png");
+    background-repeat: no-repeat;
+    height: 80px;
+    background-position: center;
+}
+
+ ::placeholder {
+    color: white;
+}
+
+.margin-small {
+    margin-left: 5px;
+}
+
+.footnote-text {
+    text-align: center;
+    font-size: 10px;
+}
+
+.btn-block {
+    width: 90%;
+    margin-top: 20px;
+}
+
+.user-logo,
+.pass-logo {
+    width: 1.35em;
+    height: 1.35em;
+}
